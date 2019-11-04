@@ -15,7 +15,7 @@ class Button extends JFrame{
   Button(String title){
     setTitle(title);
     setBounds(100, 100, 300, 250);
-    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // ✕ボタンの挙動設定
 
     JPanel p = new JPanel();
 
