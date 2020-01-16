@@ -1,0 +1,56 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Frame<production>",
+            "request": "launch",
+            "mainClass": "GUI.Frame",
+            "projectName": "production"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Button<production>",
+            "request": "launch",
+            "mainClass": "SampleProgram.Button",
+            "projectName": "production"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GUI<production>",
+            "request": "launch",
+            "mainClass": "SampleProgram.GUI",
+            "projectName": "production"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Panel<production>",
+            "request": "launch",
+            "mainClass": "SampleProgram.Panel",
+            "projectName": "production"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SampleFrame<production>",
+            "request": "launch",
+            "mainClass": "SampleProgram.SampleFrame",
+            "projectName": "production"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<production>",
+            "request": "launch",
+            "mainClass": "SampleProgram.test",
+            "projectName": "production"
+        }
+    ]
+}
