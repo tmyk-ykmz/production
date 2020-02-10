@@ -7,10 +7,11 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 public class Frame extends JFrame {
 	private static final long serialVersionUID = 1L;
@@ -37,12 +38,12 @@ public class Frame extends JFrame {
 		contentPane.add(p2, FlowLayout.CENTER);
 		p.setLayout(new FlowLayout());
 
-//		JTextField text new JTextField();
+		//		JTextField text new JTextField();
 		JTextField text1;
 		text1 = new JTextField("入力欄", 5);
 		p2.add(text1);
-//		contentPane.add(btn2, BorderLayout.SOUTH);
-//		contentPane.add(btn2, FlowLayout.CENTER);
+		//		contentPane.add(btn2, BorderLayout.SOUTH);
+		//		contentPane.add(btn2, FlowLayout.CENTER);
 
 		// ボタン作成
 		JButton btn1 = new JButton("算出方法");
@@ -51,7 +52,7 @@ public class Frame extends JFrame {
 		btn2.setPreferredSize(new Dimension(300, 50));
 		p.add(btn2); // ボタン追加
 		p.add(btn1);
-//				add(btn1);
+		//				add(btn1);
 
 		// クリック時の処理
 		btn1.addActionListener(new ActionListener() {
